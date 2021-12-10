@@ -1,0 +1,289 @@
+* {
+	text-decoration: none;
+	/* text deco agar semua tulisan tidak ada desain atau garis bawah */
+	margin: 0px;
+	/* utk meratakan ke kiri padding dan margin */
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Open Sans", sans-serif;
+	position: relative;
+	background-color: #e9c46a;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.rumah {
+	width: 500px;
+	height: 385px;
+	border-radius: 40px;
+	margin: 100px 0 0 0;
+}
+.logo a {
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	font-family: courier;
+	color: #e76f51;
+}
+
+.menu {
+	float: right;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #2a9d8f;
+	z-index: 1;
+	border-bottom: 1px solid #e76f51;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+/* saat ingin di klik muncul perubahan */
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.kolom {
+	margin: 50px 0 50px 50px;
+	/* top-right-bottom-left */
+}
+
+.kolom .deskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "comic sans ms";
+	color: #2a9d8f;
+}
+
+h2 {
+	font-family: "comic sans ms";
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: #2a9d8f;
+	width: 100%;
+	line-height: 50px;
+}
+
+a.tbl-biru {
+	background: #e76f51;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-biru:hover {
+	background: #f4a261;
+	text-decoration: none;
+}
+
+a.tbl-pink {
+	background: #f4a261;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-pink:hover {
+	background: #e76f51;
+	text-decoration: none;
+}
+
+p {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.tutor-list {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kartu-tutor {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-tutor img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.kartu-tutor p {
+	font-family: "comic sans ms";
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	color: #2a9d8f;
+}
+
+.partner-list {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kartu-partner {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-partner img {
+	width: 200px;
+	border-radius: 10%;
+}
+
+#contact {
+	background: #2a9d8f;
+	padding: 50px 0px 50px 0px;
+}
+
+.footer {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-section {
+	width: 20%;
+	margin: 0 auto;
+}
+
+h3 {
+	font-family: "comic sans ms";
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #e76f51;
+	width: 100%;
+	line-height: 50px;
+}
+
+#copyright {
+	text-align: center;
+	width: 100%;
+	padding: 25px 0px 25px 0px;
+	background-color: #264653;
+	/* margin-top: 30px; */
+}
+.isi-content {
+	font-family: "comic sans ms";
+}
+/* untuk halaman harga */
+.type55 {
+	width: 820px;
+	height: 400px;
+	border-radius: 30px;
+	margin: 30px 0 0 0;
+}
+.side-content {
+	width: 270px;
+	height: 800px;
+	border-radius: 30px;
+}
+.lokasi {
+	width: 500px;
+	height: 400px;
+}
+
+#map {
+	margin-top: 30px;
+}
+
+/* LOGIN BOX */
+.box {
+	background-color: #364f6b;
+	width: 50%;
+	height: 250px;
+	position: fixed;
+	top: 25vh;
+	right: 25vw;
+	text-align: center;
+	padding-top: 70px;
+	box-sizing: border-box;
+	z-index: 99;
+	border-radius: 15px;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.para {
+	color: red;
+}
+
+/* Table */
+table,
+th,
+td {
+	width: 80%;
+	border: 5px solid #264653;
+}
+
+th {
+	background-color: #e76f51;
+}
+
+td {
+	background-color: #f4a261;
+}
